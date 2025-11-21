@@ -1,0 +1,6 @@
+services:
+  webapiinvestimento:
+    image: ${DOCKER_REGISTRY-}webapiinvestimento
+    build:
+      context: .
+      dockerfile: webapiinvestimento/Dockerfile
